@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+/*Body part*/
+body {
+	font-family: "Helvetica";
+	background-color: red;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+
+/* Container */
+
+.topnav {
+	margin:auto;
+	padding: 10px;
+	width: 90%;
+	height:30px;
+	overflow: hidden;
+	background-color: #050505;
+}
+
+
+
+/*Right side*/
+.topnav-right {
+	float: right;
+}
+
+
+.topnav-right a{
+  
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 11px;
+  
+
+}
+.topnav-right a:hover{
+	background-color: #77DBD7;
+    border-radius:5px; 
+  color: white;
+	
+}
+
+
+
+/*Left*/
+
+.topnav-left {
+	float: left;
+}
+
+.topnav-left a{
+	
+  object-position: center;
+  color: #FFFFFF;
+  padding:5px ;
+  font-size: 25px;
+  margin: 10px 20px;
+
+}
+
+
+.topnav-left a:hover{
+	border-radius:5px;
+	background-color: grey;
+  color: white;
+	
+}
+
+
+
+/*singuo*/
+.button {
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+ 
+}
+
+.button1 {
+  background-color: #77DBD7; 
+  color: white;  
+  border: 2px solid #;
+}
+.button1:hover {
+  background-color: #FFFBFB;
+  color: black;
+}
+
+/*container*/
+.o {
+	margin:auto;
+	padding: 10px;
+	width: 90%;
+	height:700px;
+	overflow: hidden;
+	background-color:#FAF2F2;
+}
+
+/*about*/
+.h{
+	
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	float:right;
+	margin-right:528px;
+	margin-top:140px;
+}
+/*para*/
+.p{
+	
+	float: right;
+}
+/*image*/
+.i{
+	margin-left: 100px;
+	margin-top: 40px;
+}
+/*para divsion*/
+	
+.l{
+	color: blue;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	float: left;
+	font-size: 20px;
+	margin-right: 170px;
+	margin-top:-440px;
+	height:300px;
+	width: 490px;
+	float:right;
+	background: #FAF2F2;
+}
+
